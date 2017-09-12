@@ -20,8 +20,8 @@ start(_StartType, _StartArgs) ->
         '_',
         [
             {"/status", electrolink_cloud_status, []},
-			{"/user", electrolink_cloud_user, []},
-			{"/login", electrolink_cloud_login, []}
+            {"/user", electrolink_cloud_user, []},
+            {"/login", electrolink_cloud_login, []}
         ]
     } ],
     Dispatch = cowboy_router:compile(Routes),
