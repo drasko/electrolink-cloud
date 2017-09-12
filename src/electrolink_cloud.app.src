@@ -1,0 +1,19 @@
+{application, electrolink_cloud,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { electrolink_cloud_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+	cowboy,
+	jsx,
+	erlpass
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
