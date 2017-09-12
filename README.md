@@ -1,9 +1,13 @@
-electrolink_cloud
-=====
+# Electrolink Cloud
 
-An OTP application
+Electrolink cloud in Erlang.
 
-Build
------
+## Install
+```bash
+git clone https://github.com/drasko/electrolink-cloud
+```
 
-    $ rebar3 compile
+## Run
+```
+rebar3 run
+```
