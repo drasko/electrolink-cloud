@@ -9,7 +9,9 @@
        {ref,"11e07d3c2b164d06ad35188d83ad70e7501396db"}},
   1},
  {<<"erlpass">>,{pkg,<<"erlpass">>,<<"1.0.4">>},0},
+ {<<"goldrush">>,{pkg,<<"goldrush">>,<<"0.1.9">>},1},
  {<<"jsx">>,{pkg,<<"jsx">>,<<"2.8.2">>},0},
+ {<<"lager">>,{pkg,<<"lager">>,<<"3.5.1">>},0},
  {<<"ranch">>,
   {git,"https://github.com/ninenines/ranch",
        {ref,"55c2a9d623454f372a15e99721a37093d8773b48"}},
@@ -18,5 +20,7 @@
 {pkg_hash,[
  {<<"bcrypt">>, <<"1C0F76981D8A7B32E4DAA813408BFCA5BA8B1286196EB771F026D02C710F71C5">>},
  {<<"erlpass">>, <<"395BAAF1E296B7B46C9D296C25040AF1B7EB91731F208D772BA346AB4572A8FC">>},
- {<<"jsx">>, <<"7ACC7D785B5ABE8A6E9ADBDE926A24E481F29956DD8B4DF49E3E4E7BCC92A018">>}]}
+ {<<"goldrush">>, <<"F06E5D5F1277DA5C413E84D5A2924174182FB108DABB39D5EC548B27424CD106">>},
+ {<<"jsx">>, <<"7ACC7D785B5ABE8A6E9ADBDE926A24E481F29956DD8B4DF49E3E4E7BCC92A018">>},
+ {<<"lager">>, <<"63897A61AF646C59BB928FEE9756CE8BDD02D5A1A2F3551D4A5E38386C2CC071">>}]}
 ].
