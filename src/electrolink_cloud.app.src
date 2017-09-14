@@ -9,7 +9,8 @@
     cowboy,
     jsx,
     erlpass,
-    lager
+    lager,
+    couchbeam
    ]},
   {env,[]},
   {modules, []},
